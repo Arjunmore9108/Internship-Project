@@ -45,7 +45,7 @@ function BottomNav() {
 
                     <div className="cartIcon">
                         <Link to="/Home/CartPage">
-                            <img src="CartIcon.png" alt="Cart"/>
+                            <img src="cartIcon.png" alt="Cart"/>
                         </Link>
                     </div>
                 </nav>
