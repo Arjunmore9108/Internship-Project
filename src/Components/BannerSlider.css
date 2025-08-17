@@ -1,0 +1,184 @@
+.firstcontainer {
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    transition: color 0.3s;
+}
+
+.slide-btn:hover {
+    color: #ddd;
+}
+
+.slide-btn.prev {
+    left: 20px;
+}
+
+.slide-btn.next {
+    right: 20px;
+}
+
+.logo {
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.bottomnavbar {
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 2;
+    color: white;
+}
+
+.company-logo {
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.cart-link {
+    transform: scaleX(-1);
+    height: 35px;
+    filter: brightness(0) invert(1);
+
+}
+
+
+.brand-name {
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.brand-subtext {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.nav-links a {
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #00b8f1;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    padding: 6px 12px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    outline: none;
+    margin-right: 20px;
+}
+
+.search-box::placeholder {
+    color: #ffffff;
+}
+
+.PCComponents {
+    margin-bottom: 5px;
+
+}
+
+.PCPeripherals {
+    margin-bottom: 5px;
+
+}
+
+@media (max-width:945px) {
+    .firstcontainer {
+        background-color: black;
+        background-image: none;
+    }
+}
+
+@media (max-width:420px) {
+    .firstcontainer {
+        background-image: none;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        min-height: fit-content;
+
+    }
+
+    .PCComponents,.PCPeripherals,.PreBuildPC {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .nav-links  a 
+    {
+        color: black;
+    }
+
+    .search-cart {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .search-cart img {
+        margin-top: 10px;
+    }
+    .logo
+    {
+        margin-bottom: 15px;
+    }
+}

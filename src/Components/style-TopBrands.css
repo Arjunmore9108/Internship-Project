@@ -1,0 +1,39 @@
+.top-brands
+{
+  background-color: white;
+
+}
+.top-brands h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: white;
+}
+.brands-container
+{
+  display: flex;
+  height: fit-content;
+  background-color: white;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap;
+}
+.brand-card
+{
+  height:150px;
+  width: 150px;
+  justify-content: center;
+  align-content: center;
+}
+.brand-card img {
+  width:150px;
+}
+img.brand2
+{
+  width:120px;
+  align-items: center;
+  padding-left: 25px;
+  
+}

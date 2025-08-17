@@ -1,0 +1,253 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px 120px 50px;
+}
+
+.PictureSection {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin:0px;
+    width: 1090px;
+    height: 100%;
+    min-width: 300px;
+    padding: 50px 20px 50px 20px;
+    
+
+}
+.InnerHeroOfMainPage
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.PicturesLocation {
+    width: fit-content;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+.PicturesLocation img {
+    width: 350px;
+
+}
+.InnerHeroofMainPage2
+{
+   display: flex;
+   justify-content: center;
+
+}
+.InformationSection {
+    width: 710px;
+    margin: 10px 0px 20px 0px;
+    background-color: white;
+    padding:23px;
+}
+
+.BuyInformationSection {
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 12px;
+    margin-top:10px;
+}
+
+.ShoppingInfo {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 25px;
+    height: fit-content;
+    background-color: white;
+    width: 100%;
+}
+
+.BtnSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.BtnSection button {
+    margin-bottom: 15px;
+    border-radius: 12px;
+    margin-left: 10px;
+    border: none;
+    color: black;
+    font-weight: 100;
+    width: 160px;
+    height: 25px;
+    color: white;
+}
+
+.AddToCart {
+    background-color: #ffc400;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.AddToCart.added {
+    background-color: green;
+}
+
+.BuyNow {
+    background-color: #ff0800;
+    cursor: pointer;
+}
+
+.QtySection {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.QtySection input {
+    text-align: center;
+    width: 70%;
+    height: 20px;
+    border-radius: 12px;
+    border: 0.7px solid;
+
+}
+
+.SpecificationSection {
+    margin: 15px 0px 15px 0px;
+}
+
+.FeatureSection {
+    margin: 15px 0px 15px 0px;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+li,
+p {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.PriceSection {
+    padding: 5px 0px 10px 0px;
+
+}
+
+.DiscountSection {
+    display: flex;
+}
+
+.Percentage {
+    font-size: 24px;
+    margin-right: 0px;
+    color: green
+}
+
+.Discount {
+    font-size: 14px;
+    margin-left: 4px;
+    color: green;
+    margin-top: 10px;
+}
+
+.OldPrice {
+    color: red;
+    text-decoration: line-through;
+
+
+}
+
+.CurrentPrice {
+    color: green;
+    font-size: 20px;
+}
+
+.SpecificationSection p {
+    font-weight: 100;
+}
+
+.FeatureSection p {
+    font-weight: 100;
+}
+
+.mainDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Warning {
+    width: 500px;
+    align-self: center;
+}
+
+.Warn {
+    margin: 0px;
+
+}
+
+.WarnHead {
+    text-align: center;
+    font-size: 40px;
+}
+
+.WarnBody {
+    text-align: center;
+    font-size: 25px;
+}
+
+@media (max-width:420px) {
+    .hero{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  .PictureSection {
+    border: none;
+   background-color: transparent;
+    height: fit-content;
+    margin:0px;
+    padding-top:0px;
+    padding-bottom: 0px;width: 375px;
+}
+
+.InnerHeroofMainPage2
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+.InformationSection
+{
+    width: 100%;
+}
+.BuyInformationSection
+{
+    width: 100%;
+    margin: 0px;
+}
+.PicturesLocation {
+
+    padding: 3px 20px 20px 3px;
+    background-color: white;
+    border:1px solid black;
+    width: 355px;
+}
+}
+

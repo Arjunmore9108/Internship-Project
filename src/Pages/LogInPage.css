@@ -1,0 +1,90 @@
+.heroOfLogin {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(wmremove-transformed.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:150px;
+    padding-bottom:150px;
+
+}
+
+.login-container {
+    width: 300px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    text-align: left;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-form input {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2D3640;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form button:hover {
+    background-color: #444;
+}
+
+.login-container p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.login-container a {
+    color: #004B96;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+@media (max-width:420px)
+{
+    .heroOfLogin {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .login-container {
+        width: 90%;
+        padding: 20px;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .login-container input
+    {
+        background-color: transparent;
+    }
+
+    
+}

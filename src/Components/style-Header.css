@@ -1,0 +1,33 @@
+.Navbar {
+      background-color: #2e3a46;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+     
+      
+}
+.nav-left, .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+}
+.nav-left a, .nav-right a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      display: flex;
+}
+.HomePageBtn img , .HomeTxt
+{
+      height: 20px;
+}
+.HomeTxt
+{
+      margin: 3px;
+}
+.HomePageBtn img
+{
+       filter: brightness(0) invert(1);
+}

@@ -1,0 +1,87 @@
+.heroOfSignIn {
+  background-image: url(wmremove-transformed.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.signup-container {
+  width: 300px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  text-align: left;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.signup-form input {
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #2D3640;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-form button:hover {
+  background-color: #444;
+}
+
+.signup-container p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-container a {
+  color: #004B96;
+  text-decoration: none;
+}
+
+.signup-container a:hover {
+  text-decoration: underline;
+}
+@media (max-width:420px)
+{
+  .heroOfSignIn
+  {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .signup-container
+  {
+   margin: 0px;
+   background-color:transparent;
+   box-shadow: none;
+  }
+  .signup-container input
+  {
+    background-color: transparent;
+  }
+ 
+}

@@ -1,0 +1,26 @@
+.best-deals {
+  background-color: #e5e5e5; 
+  padding: 20px;
+  height: auto;
+  text-align: center;
+}
+
+.best-deals h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.deals-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.deal-card {
+  background-color: white;
+  width: 350px;
+  height: 495px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

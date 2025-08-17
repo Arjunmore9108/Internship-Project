@@ -1,0 +1,77 @@
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.BottomNavBarSection {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.BottomNavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    width: 60%;
+    min-width: 375px;
+
+
+}
+
+.BottomNavBar img {
+    height: 25px;
+    transform: scaleX(-1);
+}
+
+.BottomNavBar button {
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.BottomNavBar button:hover 
+{
+    color:#00b8f1; 
+    
+}@media (max-width:420px)
+{
+    .BottomNavBar {
+        width: 100%;
+        min-width: 0;
+        border-radius: 0px;
+    }
+    .BottomNavBar button 
+    {
+        font-size:14px ;
+    }
+    
+}
+
+.PrevBtn button,
+.NextBtn button {
+  
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.PrevBtn button img,
+.NextBtn button img {
+  width: 30px;
+  height: 30px;
+
+}
+
+
+
+

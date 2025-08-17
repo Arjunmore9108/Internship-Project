@@ -1,0 +1,24 @@
+*
+{
+  margin:0px;
+}
+@media (max-width:420px)
+{
+  .bottomnavbar
+  {
+    height: fit-content;
+    display: flexbox;
+    flex-direction: column;
+    
+  }
+  .firstContainer
+  {
+    background-image:none;
+    background-color: white;
+    height: fit-content;
+  }
+  .slide-btn
+  {
+    display: none;
+  }
+}

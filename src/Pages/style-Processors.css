@@ -1,0 +1,58 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.heroOfProcessors
+{
+    display: block;
+    height: auto;
+}
+.UpperSection
+{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+.FilterContainer
+{
+    width:fit-content;
+    margin-bottom: 30px;
+}
+.LowerSection
+{
+    display: inline-flex;
+}
+.ProductCardContainers
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    text-align: center;
+margin-bottom:25px;
+}
+.HeadingSection
+{
+    display: flex;
+}
+.CartSectionInProductPage
+{
+    width: 400px;
+    background-color: green;
+    position: fixed;
+}
+@media (max-width:560px){
+    .FilterContainer
+    {
+        display: none;
+    }
+}
+
+@media(max-width:410px)
+{
+    .HeadingSection h1 
+    {
+        font-size: 22px;
+    }
+}
