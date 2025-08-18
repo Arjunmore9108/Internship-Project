@@ -42,3 +42,8 @@
 {
     border-radius: 6px;
 }
+.Option img
+{
+    height: 120px;
+    width: 120px;
+}
