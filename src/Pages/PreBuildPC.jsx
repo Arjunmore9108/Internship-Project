@@ -24,7 +24,7 @@ function PCPeripherals() {
                         </Link>
                         <Link to="/Home/PreBuildPC/Desktops" style={{textDecoration:"None"}}>
                         <div className="Options">
-                            <img className="Option" src="Desktop.png" />
+                            <img className="Option" src="Desktop.png" style={{height:"120px",width:"120px"}} />
                             <p>DESKTOPS</p>
                         </div>
                         </Link>
