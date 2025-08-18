@@ -13,7 +13,7 @@ function PCPeripherals() {
             <div class="heroOfPeripherals">
                 <div className="Content">
                     <div className="HeadingText">
-                        <p>PC PERIPHERALS</p>
+                        <p>PRE-Build PC</p>
                     </div>
                     <div className="OptionsContainer">
                         <Link to="/Home/PreBuildPC/Laptops" style={{textDecoration:"None"}}>
