@@ -220,6 +220,7 @@ export default function CheckoutPage() {
 <option value="Jharkhand">Jharkhand</option>
 <option value="Kerala">Kerala</option>
 <option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
 <option value="Manipur">Manipur</option>
 <option value="Meghalaya">Meghalaya</option>
 <option value="Mizoram">Mizoram</option>

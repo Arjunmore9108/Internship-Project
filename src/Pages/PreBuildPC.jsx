@@ -1,7 +1,7 @@
 import react from "react";
 import Header from '../Components/Header';
 import Footer from '../Components/Footer'
-import './Style-PCPeripherals.css';
+import './Style-PreBuildPC.css';
 import { Link } from "react-router-dom";
 import BottomNav from '../Components/BottomNav';
 
@@ -18,13 +18,13 @@ function PCPeripherals() {
                     <div className="OptionsContainer">
                         <Link to="/Home/PreBuildPC/Laptops" style={{textDecoration:"None"}}>
                         <div className="Options">
-                            <img className="Option" src="Laptop.png" />
+                            <img className="Option LaptopIcon" src="Laptop.png" />
                             <p>LAPTOPS</p>
                         </div>
                         </Link>
                         <Link to="/Home/PreBuildPC/Desktops" style={{textDecoration:"None"}}>
                         <div className="Options">
-                            <img className="Option" src="OutputDevices.jpg" />
+                            <img className="Option DesktopIcon" src="OutputDevices.jpg" />
                             <p>DESKTOPS</p>
                         </div>
                         </Link>
