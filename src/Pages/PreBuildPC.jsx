@@ -18,7 +18,7 @@ function PCPeripherals() {
                     <div className="OptionsContainer">
                         <Link to="/Home/PreBuildPC/Laptops" style={{textDecoration:"None"}}>
                         <div className="Options">
-                            <img className="Option" src="InputDevices.jpg" />
+                            <img className="Option" src="Laptop.png" />
                             <p>LAPTOPS</p>
                         </div>
                         </Link>
