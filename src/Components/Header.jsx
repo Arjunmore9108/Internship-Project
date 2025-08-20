@@ -27,7 +27,7 @@ const Header = () => {
         {location.pathname !== "/" && (
           <div className="HomePageBtn">
             <Link to="/"> 
-              <img src="/HomeIcon.png" alt="Home" />
+              <img src="HomeIcon.png" alt="Home" />
             </Link>
           </div>
         )}
