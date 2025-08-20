@@ -22,6 +22,7 @@ function BottomNav() {
                     {!isOnPCComponents && (
                         <div className="PCComponentsBtn">
                             <Link to="/Home/PCComponents">
+                            <img src="ComponentsIcon.png" alt="comp"/>
                                 <button>PC COMPONENTS</button>
                             </Link>
                         </div>
@@ -30,6 +31,7 @@ function BottomNav() {
                     {!isOnPCPeripherals && (
                         <div className="PCPeripheralsBtn">
                             <Link to="/Home/PCPeripherals">
+                            <img src="PeripheralsIcon.jpg" alt="comp"/>
                                 <button>PC PERIPHERALS</button>
                             </Link>
                         </div>
@@ -38,6 +40,7 @@ function BottomNav() {
                     {!isOnPreBuildPC && (
                         <div className="PreBuildPCBtn">
                             <Link to="/Home/PreBuildPC">
+                            <img src="PreBuildPC.png" alt="comp"/>
                                 <button>PRE-BUILD PC</button>
                             </Link>
                         </div>

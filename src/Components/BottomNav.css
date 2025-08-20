@@ -49,6 +49,19 @@ button {
     {
         font-size:14px ;
     }
+    .PCComponentsBtn button 
+    {
+        display: none;
+    }
+    .PCPeripheralsBtn button 
+    {
+        display: none;
+
+    }
+    .PreBuildPCBtn button 
+    {
+        display: none;
+    }
     
 }
 
