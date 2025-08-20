@@ -75,4 +75,8 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+    .Content
+    {
+        min-width: 100%;
+    }
 }
