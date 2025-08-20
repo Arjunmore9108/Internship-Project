@@ -1,24 +1,64 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import './style-Header.css'
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import './style-Header.css';
 
-const Header = () =>{
-    
-    return (
-        <div className="Navbar">
-            <div className="nav-left">
-                <div className="HomePageBtn">
-                    <Link to="/" > <img src="Prev.png" /><div className="HomeTxt">Home</div></Link>
-                </div>
-            </div>
-            <div className="nav-right">
-                <Link to="/Home/SignUpPage">Sign Up</Link>
-                <Link to="/Home/LogInPage">Log In</Link>
+const Header = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation(); // gives current route
 
-            </div>
-        </div>
-            )
-}
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    setIsLoggedIn(!!token);
+  }, []);
 
-export default Header;        
-    
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+    localStorage.removeItem("userId");
+    setIsLoggedIn(false);
+    navigate("/Home/LogInPage");
+  };
+
+  return (
+    <div className="Navbar">
+      <div className="nav-left">
+        {/* Hide Home button if already on "/" */}
+        {location.pathname !== "/" && (
+          <div className="HomePageBtn">
+            <Link to="/"> 
+              <img src="/HomeIcon.png" alt="Home" />
+            </Link>
+          </div>
+        )}
+      </div>
+
+      <div className="nav-right">
+        {isLoggedIn ? (
+          <>
+            <button 
+              className="logout-btn" 
+              style={{ color: "white" }} 
+              onClick={handleLogout}
+            >
+              <img src="/LogoutIcon.png" alt="Logout" />
+            </button>
+          </>
+        ) : (
+          <>
+            {/* Hide SignUp button if on SignUp page */}
+            {location.pathname !== "/Home/SignUpPage" && (
+              <Link to="/Home/SignUpPage">Sign Up</Link>
+            )}
+            {/* Hide LogIn button if on LogIn page */}
+            {location.pathname !== "/Home/LogInPage" && (
+              <Link to="/Home/LogInPage">Log In</Link>
+            )}
+          </>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Header;
